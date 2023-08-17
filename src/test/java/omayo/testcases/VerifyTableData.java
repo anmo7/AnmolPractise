@@ -24,7 +24,7 @@ public class VerifyTableData extends BaseTest {
 		expectedTableData.add("Bangalore");
 		expectedTableData.add("Dheepthi");
 		expectedTableData.add("31");
-		expectedTableData.add("Delhi");
+		expectedTableData.add("Mumbai");
 		assertEquals(Utility.getALLTableData(driver, "//table[@id='table1']/tbody/tr//td"), expectedTableData);
 		//assertEquals(Utility.getALLTableData(driver , "//table[@id='table1']/tbody/tr//td"))
 	}
