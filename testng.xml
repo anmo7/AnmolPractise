@@ -9,7 +9,7 @@
 	<listeners>
 	<listener class-name="testCases.ListnersImpl"></listener>	
 	</listeners>
-	<test thread-count="3" name="Test" parallel="methods" enabled="true">
+	<test thread-count="1" name="Test" parallel="methods" enabled="true">
 		<classes>
 			<class name="testCases.DataDriven" />
 		</classes>
