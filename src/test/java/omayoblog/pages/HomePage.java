@@ -26,7 +26,7 @@ public class HomePage {
 		try {
 			driver.findElement(By.xpath("//a[@id='selenium143']")).click();
 		} catch (NoSuchElementException e) {
-			System.out.println("Blog is created Locator is not avaliable");
+			System.out.println("Blog created Locator is not avaliable");
 		}
 	}
 }
